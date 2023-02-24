@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5102a38e350d59841b91d586a331742c, type: 3}
+  m_Name: 3. TriggerSquareDistanceItem
+  m_EditorClassIdentifier: 
+  _name: Tile Distance
+  description: Increase distance between tiles. Get more time to think and fall properly.
+  purchaseDescription: Increase Tile distance by 24 metres.
+  image: {fileID: 0}
+  level: 2
+  maxLevel: 5
+  cost: 25518
+  isUnlocked: 1
+  priceAtLevel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 7500
+      inSlope: 9135.014
+      outSlope: 9135.014
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.056640625
+    - serializedVersion: 3
+      time: 5
+      value: 40000
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10546875
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  itemValueAtLevel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: -80
+      inSlope: -24
+      outSlope: -24
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 5
+      value: -200
+      inSlope: -24
+      outSlope: -24
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
