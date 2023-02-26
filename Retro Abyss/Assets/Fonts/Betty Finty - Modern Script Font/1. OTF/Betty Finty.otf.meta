@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: eaa61427b3046fc4b862daaeb86cda18
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Betty Finty
+  fontNames:
+  - Betty Finty
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c804f99ee49472145a709ac7b2f2cd50, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
